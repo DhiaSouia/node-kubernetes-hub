@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: souaidhia/node-kubernetes
+        image: souaidhia/node-kubernetes:latest
         ports:
         - containerPort: 3000
         
